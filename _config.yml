@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
+theme: type
+remote_theme: mattvh/jekyllthemes
 
 title-heading: false
