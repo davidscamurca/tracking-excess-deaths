@@ -1,4 +1,6 @@
-## [Rastreamento de excesso de mortes pelo Brasil](https://davidscamurca.github.io/tracking-excess-deaths)
+## Rastreamento de excesso de mortes pelo Brasil
+
+[](https://davidscamurca.github.io/tracking-excess-deaths)
 
 Dados extraídos manualmente do [Portal da Transparência - Registro Civil](https://transparencia.registrocivil.org.br/registros)
 
