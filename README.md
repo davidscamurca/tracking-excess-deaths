@@ -19,4 +19,5 @@ Olhando para as capitais do Brasil, não é possível notar um excesso positivo,
 Nos municípios do amazonas, no mês abril de 2020, o número de óbitos está 2.5x acima do normal, se comparado com a média do mesmo período dos últimos anos (2017, 2018 e 2019). São 1367 contra 380, ou seja, temos um excesso de 987. Com base nos números até hoje, é estimado um total de 2051 óbitos até o final do mês.
 <iframe width="945" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1285552428&amp;format=interactive"></iframe>
 
+O portal de registro não recebe dados de todos os municípios do estado do Amazonas.
 <iframe width="804.5" height="348" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1298920842&amp;format=interactive"></iframe>
