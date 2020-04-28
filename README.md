@@ -10,5 +10,7 @@ Em Manaus, no mês abril de 2020, o número de óbitos está 3x acima do normal,
 
 <br>
 <br>
-Olhando para as capitais do Brasil, não é possível notar um excesso positivo, isso pode ser consequência de vários fatores. A atualização da bases de dados tem delay de até 10 dias, com a quarentena as pessoas ficam em casa e correm menos riscos de alguma fatalidade, seja trânsito, assaltos, etc. É notado que dados de anos anteriores continuam sendo atualizados até os dias de hoje. 
+Olhando para as capitais do Brasil, não é possível notar um excesso positivo, isso pode ser consequência de vários fatores. A atualização da bases de dados tem delay de até 10 dias, com a quarentena as pessoas ficam em casa e correm menos riscos de alguma fatalidade, seja trânsito, crimes, etc. É notado que dados de anos anteriores continuam sendo atualizados até os dias de hoje. 
 <iframe width="945" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=685263596&amp;format=interactive"></iframe>
+
+<iframe width="793" height="691" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1370762227&amp;format=interactive"></iframe>
