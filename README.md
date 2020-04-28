@@ -5,5 +5,5 @@
 <br>
 ### Rastreio de óbitos em excesso pelo Brasil
 
-Em Manaus, no mês abril de 2020, o número de óbitos está 3x acima do normal, se comparado com a média do mesmo período dos últimos anos (2017, 2018 e 2019). São 1321 contra 321, ou seja, temos um excesso de óbitos chegando a 300%. Com base nos números até hoje, é estimado um total de 1468 óbitos até o final do mês.
+Em Manaus, no mês abril de 2020, o número de óbitos está 3x acima do normal, se comparado com a média do mesmo período dos últimos anos (2017, 2018 e 2019). São 1321 contra 321, ou seja, temos um excesso de 1000 óbitos, representando mais 300% em excesso. Com base nos números até hoje, é estimado um total de 1468 óbitos até o final do mês.
 <iframe width="925" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=634226051&amp;format=interactive"></iframe>
