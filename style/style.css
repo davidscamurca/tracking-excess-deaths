@@ -101,6 +101,11 @@ nav.navigation-bar a:active {
     color: red;
 }
 
+/* default color */
+nav.navigation-bar a {
+    color: inherit;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
