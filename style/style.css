@@ -15,11 +15,11 @@ header {
     align-items: center;
     flex-direction: column;
     border-bottom: 2px solid #dddddd;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     min-width: 1200px;
 }
 
-header>h4.pre-title {
+h4.pre-title {
     font-family: 'Montserrat', sans-serif;
     color: #e3120b;
     font-weight: bold;
@@ -66,3 +66,52 @@ span.data-caps {
     margin: 10px 0px 20px;
     line-height: 1.3em;
 }
+
+/* Nav style */
+nav.navigation-bar {
+    border-bottom: 2px solid #dddddd;
+    min-width: 1200px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav.navigation-bar .nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-width: 725px;
+}
+
+nav.navigation-bar a {
+    text-decoration: none;
+}
+
+/* visited link */
+nav.navigation-bar a:visited {
+    color: black;
+}
+
+/* selected link */
+nav.navigation-bar a:active {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+    border-bottom: 2px solid red;
+}
+
+
