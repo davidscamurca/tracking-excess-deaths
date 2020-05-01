@@ -28,8 +28,8 @@
 <nav class="navigation-bar">
     <div class="nav-content">
         <ul>
-            <li><a href="index.html">Capitais</a></li>
-            <li><a href="estados.html">Estados</a></li>
+            <li id="capitais"><a href="index.html">Capitais</a></li>
+            <li id="estados"><a href="estados.html">Estados</a></li>
         </ul>
     </div>
 </nav>
@@ -294,8 +294,16 @@
         <div class="flex-child"><iframe width="894.5" height="689" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=949488127&amp;format=interactive"></iframe></div>
     </div>    
     
-    <a href="https://transparencia.registrocivil.org.br/registros">Fonte dos dados: Portal da Transparência - Registro Civil</a> </main>
+    <a href="https://transparencia.registrocivil.org.br/registros">Fonte dos dados: Portal da Transparência - Registro Civil</a> </main>    
 </main>
 
+<script>
+    let path = window.location.pathname;
+    if (path.indexOf('index') != -1) {
+        document.getElementById('capitais').classList.add('selected');
+    } else {
+        document.getElementById('estados').classList.add('selected');
+    }
+</script>
 </body>
 </html>
