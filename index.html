@@ -298,11 +298,11 @@
 </main>
 
 <script>
-    let path = window.location.pathname;
-    if (path.indexOf('index') != -1) {
-        document.getElementById('capitais').classList.add('selected');
-    } else {
+    let path = window.location.href;
+    if (path.indexOf('estados') != -1) {
         document.getElementById('estados').classList.add('selected');
+    } else {
+        document.getElementById('capitais').classList.add('selected');
     }
 </script>
 </body>
