@@ -133,3 +133,13 @@ li {
 .flex-child:first-child {
     margin-right: 20px;
 } 
+
+.fonte {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.fonte > span {
+    font-weight: bold;
+}
