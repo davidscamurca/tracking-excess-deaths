@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -52,6 +54,12 @@ main {
 
 section {
     max-width: 725px; 
+}
+
+section.combo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
 }
 
 span.data-caps {
@@ -143,4 +151,36 @@ li {
 
 .fonte > span {
     font-weight: bold;
+}
+
+.select-container {
+    position: relative;
+    margin-left: 10px;
+}
+
+.select-container  select {
+    border: 2px solid #dddddd;
+    padding: .8rem 3rem .8rem .5rem;
+    border-radius: 5px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 300px;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.select-container::after {
+    content: 'keyboard_arrow_down';
+    font-family: 'material icons';
+    font-size: 24px;
+    color: #aaa;
+    position: absolute;
+    right: 5px;
+    top: 47%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: -1;
 }

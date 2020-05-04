@@ -15,6 +15,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- // -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- Favico -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Rastreando Covid-19</title>
 </head>
 
@@ -71,17 +79,28 @@
         </div>
     </div>
 
+    <!-- select city to show the corresponding chart -->
+    <section class="combo">
+        <p class="first-p text">Escolha um estado para ver o gráfico:</p>
+        
+        <div class="select-container">
+            <select id="estateChosen" class="ls-select" onchange="selectCity()">
+            </select>
+        </div>
+    </section>
+    <!-- end select -->
+
     <!-- Estd. Pernambuco-->
     <section>        
-        <p class="first-p text">Pernambuco</p>
+        <p class="first-p text" id="dinamic-estate-title">Pernambuco</p>
     </section>
-    <p class="first-p text"> Excesso: 686</p>
+    <p class="first-p text" id="excess-label"> Excesso: 686</p>
     <div class="flex-container">
         <div class="flex-child">
-            <iframe width="697.5" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1572452277&amp;format=interactive"></iframe>
+            <iframe id="primary-frame" width="697.5" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1572452277&amp;format=interactive"></iframe>
         </div>
         <div class="flex-child">
-            <iframe width="676" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1001937550&amp;format=interactive"></iframe>
+            <iframe id="secondary-frame" width="676" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1001937550&amp;format=interactive"></iframe>
         </div>
     </div>
 
@@ -103,5 +122,6 @@
             document.getElementById('capitais').classList.add('selected');
         }
     </script>
+    <script src="estados.js"></script>
 </body>
 </html>
