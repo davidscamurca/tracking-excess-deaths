@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165095660-1"></script>
@@ -15,6 +15,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- // -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- Favico -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Rastreando Covid-19</title>
 </head>
 
@@ -87,7 +96,7 @@
 
     <!-- select city to show the corresponding chart -->
     <section class="combo">
-        <p class="first-p text">Choose a city to see the chart:</p>
+        <p class="first-p text">Escolha uma capital para ver o gráfico:</p>
         
         <div class="select-container">
             <select id="cityChosen" class="ls-select" onchange="selectCity()">
@@ -99,17 +108,17 @@
     <!-- This part is dinacally loaded according to selected City in combo above -->
     <!-- Recife -->
     <section>        
-        <p class="first-p text" id="dinamic-city-title">Recife</p>
+        <p class="first-p text" id="dinamic-city-title">Porto Alegre</p>
     </section>
-    <p class="first-p text" id="excess-label"> Excesso: 417</p>
+    <p class="first-p text" id="excess-label"> Excesso: 291</p>
     <div class="flex-container">
 
         <div class="flex-child">
-            <iframe id="primary-frame" width="697.5" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1304622001&amp;format=interactive"></iframe>
+            <iframe id="primary-frame" width="697.5" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=830203151&amp;format=interactive"></iframe>
         </div>
 
         <div class="flex-child">
-            <iframe id="secondary-frame" width="676" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=371414893&amp;format=interactive"></iframe>
+            <iframe id="secondary-frame" width="676" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=997528468&amp;format=interactive"></iframe>
         </div>
 
     </div>
