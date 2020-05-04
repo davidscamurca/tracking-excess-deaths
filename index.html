@@ -51,7 +51,10 @@
     
 
     <!-- Cap. Manaus -->
-    <p class="first-p text"> Excesso: 2075</p>
+    <section>        
+        <p class="first-p text">Manaus</p>
+    </section>
+    <p class="first-p text"> Excesso: 2220</p>
     <div class="flex-container">
 
         <div class="flex-child">
@@ -82,6 +85,36 @@
 
     </div>
 
+    <!-- select city to show the corresponding chart -->
+    <section class="combo">
+        <p class="first-p text">Choose a city to see the chart:</p>
+        
+        <div class="select-container">
+            <select id="cityChosen" class="ls-select" onchange="selectCity()">
+            </select>
+        </div>
+    </section>
+    <!-- end select -->
+
+    <!-- This part is dinacally loaded according to selected City in combo above -->
+    <!-- Recife -->
+    <section>        
+        <p class="first-p text" id="dinamic-city-title">Recife</p>
+    </section>
+    <p class="first-p text" id="excess-label"> Excesso: 417</p>
+    <div class="flex-container">
+
+        <div class="flex-child">
+            <iframe id="primary-frame" width="697.5" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=1304622001&amp;format=interactive"></iframe>
+        </div>
+
+        <div class="flex-child">
+            <iframe id="secondary-frame" width="676" height="372" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZFztIR4SJeSNrZwCzNP6lOkbIdwDIA5L1e_Qwn1dlUVD_iqXSgW3ff-qnZDKTtImbf1tnmS7ChnuU/pubchart?oid=371414893&amp;format=interactive"></iframe>
+        </div>
+
+    </div>
+    <!-- end dinamic div -->
+
     <section>        
         <p class="first-p text">Tabela Capitais</p>
     </section>
@@ -104,5 +137,6 @@
         document.getElementById('capitais').classList.add('selected');
     }
 </script>
+<script src="script.js"></script>
 </body>
 </html>
